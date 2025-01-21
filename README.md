@@ -1,6 +1,6 @@
 # gd-frequency
 
-A (GoldenDict)[https://github.com/xiaoyifang/goldendict-ng] plugin to easily lookup the frequency of Japanese words
+A [GoldenDict](https://github.com/xiaoyifang/goldendict-ng) plugin to easily lookup the frequency of Japanese words
 
 ## Installation
 Clone this repository into a directory
@@ -28,10 +28,10 @@ gd-frequency --word %GDWORD% --dict-path <PATH/TO/DICT/FILE> --bin-path <PATH/TO
 
 The first run of the script will take extra time as the frequency dictionary must be parsed and saved into a bin file.
 
-The repository already includes a (JPDB frequency list)[https://github.com/MarvNC/jpdb-freq-list] in the data directory, so it is reccomended to point the `--dict-path` to it.
+The repository already includes a [JPDB frequency list](https://github.com/MarvNC/jpdb-freq-list) in the data directory, so it is reccomended to point the `--dict-path` to it.
 
 Additionally, it is reccomended to point the `--bin-path` to the data directory as well.
 
-# Example
+## Example
 
 
