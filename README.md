@@ -28,7 +28,7 @@ gd-frequency --word %GDWORD% --dict-path <PATH/TO/DICT/FILE> --bin-path <PATH/TO
 
 The first run of the script will take extra time as the frequency dictionary must be parsed and saved into a bin file.
 
-The repository already includes a [JPDB frequency list](https://github.com/MarvNC/jpdb-freq-list) in the data directory, so it is reccomended to point the `--dict-path` to it.
+The repository already includes a [JPDB frequency list](https://github.com/Kuuuube/yomitan-dictionaries?tab=readme-ov-file#jpdb-v21-frequency) in the data directory, so it is reccomended to point the `--dict-path` to it. The frequency list json must be in yomichan format.
 
 Additionally, it is reccomended to point the `--bin-path` to the data directory as well.
 
