@@ -2,6 +2,9 @@
 
 A [GoldenDict](https://github.com/xiaoyifang/goldendict-ng) plugin to easily lookup the frequency of Japanese words
 
+![image](https://github.com/user-attachments/assets/e1c1a06a-9e96-49d3-a176-77cbf8b44579)
+
+
 ## Installation
 Clone this repository into a directory
 ```
@@ -32,6 +35,6 @@ The repository already includes a [JPDB frequency list](https://github.com/Kuuuu
 
 Additionally, it is reccomended to point the `--bin-path` to the data directory as well.
 
-## Example
+
 
 
