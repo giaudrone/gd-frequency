@@ -8,7 +8,7 @@ SRCS = src/frequency.cpp src/main.cpp
 # Output file
 OUT = gd-frequency
 BUILD_DIR = build
-PREFIX = /usr/
+PREFIX = /usr
 BIN_DIR = $(PREFIX)/bin
 SHARE_DIR = $(PREFIX)/share/gd-frequency
 

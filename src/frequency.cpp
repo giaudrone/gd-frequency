@@ -44,7 +44,7 @@ static constexpr std::string_view css_style = R"EOF(
       padding-left: 10px;
    }
 
-   .gd_frequency_word {
+   .gd_word_frequency {
       text-decoration: underline;
    }
    </style>
@@ -156,7 +156,7 @@ void search_map(const frequency_map& map, const std::string& word) {
    auto it = map.find(word);
    if (it != map.end()) {
       std::cout << "<div class=\"gd_frequency\">" <<
-      "<span class=\"gd_frequency_word\">" << word << "</span>" << ": " << it->second << "</div>";
+      word << ": <span class=\"gd_word_frequency\">" << it->second << "</span></div>";
       std::cout << css_style;
    }
    else {
