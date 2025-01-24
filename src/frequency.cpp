@@ -21,8 +21,8 @@
 
 using namespace std::string_literals;
 
-static constexpr std::string_view default_dict_path{"./data/jpdb.json"};
-static constexpr std::string_view default_bin_path{"./data/map.bin"};
+static constexpr std::string_view default_dict_path{"/usr/share/gd-frequency/jpdb.json"};
+static constexpr std::string_view default_bin_path{"/usr/share/gd-frequency/dict.bin"};
 static constexpr std::string_view help_text = R"EOF(usage: gd-frequency [OPTIONS]
 
 Find frequency.
