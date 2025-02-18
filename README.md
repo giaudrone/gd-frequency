@@ -11,7 +11,7 @@ Clone this repository into a directory
 git clone 'https://github.com/toytoi/gd-frequency.git'
 ```
 
-Run the quick install script using
+Run the quick install script using (NOTE: only tested on Arch-based distros)
 ```
 ./quickinstall.sh
 ```
