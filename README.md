@@ -24,8 +24,10 @@ sudo gd-frequency --word 双子
 ## Setup
 
 In GoldenDict, go to "Edit" > "Dictionaries" > "Programs" and add a new entry with the type set to `html` .
-In Command Line put: `gd-frequency --word %GDWORD% --dict-path <path> --bin-path <path>`
+In Command Line put: `gd-frequency --word %GDWORD% --dict-path <path> --bin-path <path>`.
 This program will then be treated as a dictionary.
+
+If you installed the program using the provided script, simply use: `gd-frequency --word %GDWORD%`.
 
 ## Usage
 
